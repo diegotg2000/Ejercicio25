@@ -9,12 +9,12 @@ using namespace std;
 void explicit_Euler(float h);
 void rk4(float h);
 float w=1.0;
-float Y=0.005;
+float Y=0.5;
 float T=40.0;
 
 int main(){
-    explicit_Euler(T/500); 
-    rk4(T/500);
+    explicit_Euler(T/50000); 
+    rk4(T/50000);
     return 0;
 }
 
